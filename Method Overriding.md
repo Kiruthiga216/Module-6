@@ -15,6 +15,24 @@ To write a Python program that demonstrates class inheritance by creating a pare
 
 ## 💻 PROGRAM:
 
+```
+class Fish:
+    def type(self):
+        print("fish")
+class Shark(Fish):
+    def type(self):
+        print("shark")
+obj_goldfish = Fish()
+obj_hammerhead = Shark()
+for obj in (obj_goldfish, obj_hammerhead):
+    obj.type()
+```
+
 ## OUTPUT
 
+<img width="358" height="167" alt="image" src="https://github.com/user-attachments/assets/33dba346-4c2a-4d4a-9847-aea96de7bc66" />
+
+
 ## RESULT
+
+The code is executed succcessfully.
